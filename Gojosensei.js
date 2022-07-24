@@ -1793,13 +1793,13 @@ break
 		    await sleep(1500)
 		    let btn = [{
                                 urlButton: {
-                                    displayText: 'Script🔖',
-                                    url: `${sc}`
+                                    displayText: 'Website🔖',
+                                    url: `${web}`
                                 }
                             }, {
                                 urlButton: {
-                                    displayText: 'YouTube📍',
-                                    url: `${myweb}`
+                                    displayText: 'Discord📍',
+                                    url: `${disc}`
                                 }
                             }, {
                                 quickReplyButton: {
