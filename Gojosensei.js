@@ -1750,7 +1750,7 @@ break
             break
             case 'bcgc': case 'bcgroup': {
                 if (!isCreator) return replay(`${mess.owner}`)
-                if (!text) return replay(`Where Is The Text?\n\nExample : ${prefix + command} Nexus Handsome`)
+                if (!text) return replay(`Where Is The Text?\n\nExample : ${prefix + command} iRexus Handsome`)
                 let getGroups = await GojoMdNx.groupFetchAllParticipating()
                 let groups = Object.entries(getGroups).slice(0).map(entry => entry[1])
                 let anu = groups.map(v => v.id)
@@ -1759,13 +1759,13 @@ break
                     await sleep(1500)
                     let btn = [{
                                 urlButton: {
-                                    displayText: 'Script🔖',
-                                    url: `${sc}`
+                                    displayText: 'Website🔖',
+                                    url: `${web}`
                                 }
                             }, {
                                 urlButton: {
-                                    displayText: 'YouTube📍',
-                                    url: `${myweb}`
+                                    displayText: 'Discord📍',
+                                    url: `${disc}`
                                 }
                             }, {
                                 quickReplyButton: {
@@ -1778,7 +1778,7 @@ break
                                     id: 'owner'
                                 }
                             }]
-                      let txt = `「 GOJO-SATORU HERE🎉 」\n\n${text}`
+                      let txt = `「 iRexus Broadcast 」\n\n${text}`
                       GojoMdNx.send5ButImg(i, txt, GojoMdNx.user.name, global.thumb, btn)
                     }
                 reply(`Successful Sending Broadcast To ${anu.length} Group(s)`)
@@ -1812,7 +1812,7 @@ break
                                     id: 'owner'
                                 }
                             }]
-                      let txt = `「 GOJO-SATORU HERE 🎉」\n\n${text}`
+                      let txt = `「 iRexus Broadcast 」\n\n${text}`
                       GojoMdNx.send5ButImg(yoi, txt, GojoMdNx.user.name, global.thumb, btn)
 		}
 		reply('Broadcast Success')
